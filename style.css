@@ -92,10 +92,15 @@ section > p{
     justify-content: center;
 }
 
-
+input[type="tel"]:invalid{
+    border: solid 2px red;
+}
 
 input[type="password"]:invalid{
     border: solid 2px red;
+}
+input:valid{
+    border-color:forestgreen;
 }
 
 button{
@@ -114,7 +119,9 @@ form > *{
 
 #submit{
     margin-top: 36px;
-    font-size: 1.2rem;
+}
+p{
+    font-size: 1.5rem;
 }
 
 a{
